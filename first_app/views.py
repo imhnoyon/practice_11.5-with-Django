@@ -54,4 +54,4 @@ def Infomation(request):
             "idMeal": "52925"
         }
     ]
-    return render(request,'index.html',{'data':data})
+    return render(request,'./index.html',{'data':data})
