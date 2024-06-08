@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+     
+   <section class="bg-primary" >
+    <nav class="navbar navbar-expand-lg  bg-success p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   </section>
+
+     {% block content %}
+
+     {% endblock %}
+
+
+       
+            <footer class="bg-success">
+                <div class="row justify-content-around mb-0 pt-5 mx-4">
+                    <div class="col-xl-2 col-md-4 order-xl-1 order-4 mr-xl-0 my-auto"><ul class="list-unstyled mt-md-3 mt-5"><li>Social Media</li><li class="social"> <span> <i class="fa fa-facebook" aria-hidden="true"></i></span>  <span> <i class="fa fa-instagram" aria-hidden="true"></i> </span> <span> <i class="fa fa-twitter" aria-hidden="true"></i> </span> </li></ul><ul class="list-unstyled my-xl-4 my-md-3"><li>Copyright</li><li>&#9400; Nutrition 2019</li></ul> </div>
+                    <div class="col-xl-2 col-md-3 pt-4 order-1"><ul class="list-unstyled"><li class="mt-md-0 mt-4">Our Solution</li><li>Intergrated Security </li><li>Core Features</li><li>Product Features</li><li>Pricing</li></ul></div>
+                    <div class="col-xl-2 col-md-3 pt-4 order-2"><ul class="list-unstyled"><li class="mt-md-0 mt-4">Your needs</li><li>Intergrated Security </li><li>Core Features</li><li>Product Features</li><li>Pricing</li></ul></div>
+                    <div class="col-xl-auto col-md-3 pt-4 my-sm-0 order-md-3 order-sm-1 "><ul class="list-unstyled"><li class="mt-md-0 mt-4">Offer</li><li>Intergrated Security </li><li>Core Features</li><li>Product Features</li><li>Pricing</li></ul></div>
+                    <div class="col-xl-auto col-md-6 col-12  pt-4 my-sm-0 order-6  "><div class="form-group "><label for="email" class="mb-3"><b>Subscribe to our newsletter and Get 10% off</b></label><input type="email" class="form-control form-control-lg" placeholder="Enter email" id="email"></div><button type="button" class="btn btn-primary btn-lg btn-block my-2 Subscribe mt-4 mb-3">Subscribe</button></div>
+                </div>
+                <div class="row justify-content-center px-3 py-3 pt-5"><div class="col text-center"><p class="mb-0">*This is a simple footer*</p></div></div>
+            </footer>
+        </div>
+     
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
